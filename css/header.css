@@ -1,0 +1,34 @@
+#banniere{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FACF19;
+}
+
+#nom-et-slogan, #logo, #boutons{
+    width: 33%;
+}
+
+#nom-du-site{
+    font-size: 40px;
+}
+
+#nom-et-slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    width: 220px;
+}
+
+#boutons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bouton-connexion{
+    font-size: 30px;
+}
