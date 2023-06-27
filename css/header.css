@@ -1,34 +1,71 @@
+body{
+    margin: 0;
+}
+
+/* Section globale */
 #banniere{
     display: flex;
-    justify-content: space-around;
     background-color: #FACF19;
 }
 
-#nom-et-slogan, #logo, #boutons{
-    width: 33%;
+.conteneurs-centred{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.nom-slogan{
+    flex-direction: column;
+}
+
+/* h1 */
 #nom-du-site{
     font-size: 40px;
+    font-family: 'Amethysta', serif;
+    color: #EBE4CB;
+    -webkit-text-stroke: 2px #AC7C5B;
 }
 
-#nom-et-slogan{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+/* h2 */
+#slogan-du-site{
+    font-family: 'Amethysta', serif;
+    color: #EBE4CB;
+    -webkit-text-stroke: 2px #AC7C5B;
 }
 
 #logo{
-    width: 220px;
+    height: 200px;
 }
 
-#boutons{
-    display: flex;
+.boutons-connexion-cart{
     justify-content: space-around;
-    align-items: center;
 }
 
 #bouton-connexion{
     font-size: 30px;
+}
+
+#cart{
+    height: 60px;
+}
+
+hr{
+    margin: 0;
+    color: #EEEEEE;
+    background-color: #EEEEEE;
+}
+
+nav{
+    background-color: #FACF19;
+    display: flex;
+    font-size: 30px;
+}
+
+.nav-flex{
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Amethysta', serif;
 }

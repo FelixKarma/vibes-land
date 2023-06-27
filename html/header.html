@@ -5,30 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amethysta&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
         <section id="banniere">
-            <section id="nom-et-slogan">
+            <section class="conteneurs-centred nom-slogan">
                 <h1 id="nom-du-site">VIBE'S LAND</h1>
                 <h2 id="slogan-du-site">VIENS GRATTER DU BONHEUR</h2>
             </section>
-        
-            <img src="../img/Logo final VIBE'S LAND.png" alt="logo VIBE'S LAND" height="200" id="logo">
+            
+            <div class="conteneurs-centred">
+                <img src="../img/Logo final VIBE'S LAND.png" alt="logo VIBE'S LAND" id="logo">
+            </div>
 
-            <section id="boutons">
+            <section class="conteneurs-centred boutons-connexion-cart">
                 <a href="connexion.html"><input type="button" value="Connexion" id="bouton-connexion"></a>
                 <a href="mon panier.html">
-                    <img src="../img/cart.png" alt="panier" height="50">
+                    <img src="../img/cart.png" alt="panier" id="cart">
                 </a>
             </section>
         </section>
 
+        <hr>
+
         <nav>
-            <a href="viande.html">Viande</a>
-            <a href="fruits.html">Fruits</a>
-            <a href="légumes.html">Légumes</a>
-            <a href="contact.html">Contactez-nous</a>
+            <a href="viande.html" class="nav-flex">VIANDE</a>
+            <a href="fruits.html" class="nav-flex">FRUITS</a>
+            <a href="légumes.html" class="nav-flex">LÉGUMES</a>
+            <a href="contact.html" class="nav-flex">CONTACTEZ-NOUS</a>
         </nav>
     </header>
 </body>
