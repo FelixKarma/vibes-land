@@ -8,17 +8,16 @@ header{
     display: flex;
     background-color: #FEFFFC;
     height: 261px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .title{
     display: flex;
+    position:fixed;
     justify-content: space-around;
     height: 36px;
     width: 40%;
     background-color: #FACF19;
-    margin-top: 115px;
+    margin-top: 130px;
     margin-left: 350px;
     
 }
@@ -39,44 +38,77 @@ height: 40px;
 
 main{
     display: flex;
-    background-color: #D9D9D9;
-    height: 543px;
-    width: 741px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .theme{
     display: flex;
     flex-flow: column;
+    align-items: center;
     background-color: #8DAC5A;
-    height: 428px;
-    width: 296px;
+    height: 90vh;
+    width: 40vw;
 }
 
 .theme1{
     background-color: #FACF19;
     height: 47px;
-    width: 219px;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
 }
 
 .theme2{
     background-color: #FACF19;
     height: 47px;
-    width: 219px;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
 }
-
 .theme3{
     background-color: #FACF19;
     height: 47px;
-    width: 219px;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
 }
-
 .theme4{
     background-color: #FACF19;
     height: 47px;
-    width: 219px;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
 }
 .theme5{
     background-color: #FACF19;
     height: 47px;
-    width: 219px;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+}
+
+.specialty{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    height: 90vh;
+    width: 40vw;
+}
+
+
+.pannier{
+    background-color:#8DAC5A ;
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+    text-align: center;
+}
+
+.star{
+    background-color:#8DAC5A ;
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+    text-align: center;
 }
