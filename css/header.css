@@ -6,6 +6,7 @@ body{
 #banniere{
     display: flex;
     background-color: #FACF19;
+    height: 100px;
 }
 
 .conteneurs-centred{
@@ -35,19 +36,19 @@ body{
 }
 
 #logo{
-    height: 200px;
+    height: 180px;
 }
 
 .boutons-connexion-cart{
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #bouton-connexion{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #cart{
-    height: 60px;
+    height: 40px;
 }
 
 hr{
@@ -59,7 +60,7 @@ hr{
 nav{
     background-color: #FACF19;
     display: flex;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .nav-flex{
