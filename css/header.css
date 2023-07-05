@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+
+/* Section globale */
+#banniere{
+    display: flex;
+    background-color: #FACF19;
+    height: 100px;
+}
+
+.conteneurs-centred{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nom-slogan{
+    flex-direction: column;
+}
+
+/* h1 */
+#nom-du-site{
+    font-size: 40px;
+    font-family: 'Amethysta', serif;
+    color: #EBE4CB;
+    -webkit-text-stroke: 2px #AC7C5B;
+}
+
+/* h2 */
+#slogan-du-site{
+    font-family: 'Amethysta', serif;
+    color: #EBE4CB;
+    -webkit-text-stroke: 2px #AC7C5B;
+}
+
+#logo{
+    height: 180px;
+}
+
+.boutons-connexion-cart{
+    justify-content: center;
+}
+
+#bouton-connexion{
+    font-size: 20px;
+}
+
+#cart{
+    height: 40px;
+}
+
+hr{
+    margin: 0;
+    color: #EEEEEE;
+    background-color: #EEEEEE;
+}
+
+nav{
+    background-color: #FACF19;
+    display: flex;
+    font-size: 20px;
+}
+
+.nav-flex{
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Amethysta', serif;
+}
