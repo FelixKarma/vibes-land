@@ -12,7 +12,6 @@ header{
 
 .title{
     display: flex;
-    position:fixed;
     justify-content: space-around;
     height: 36px;
     width: 40%;
@@ -42,7 +41,7 @@ main{
     justify-content: space-between;
 }
 
-.theme{
+.theme-a{
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -51,36 +50,7 @@ main{
     width: 40vw;
 }
 
-.theme1{
-    background-color: #FACF19;
-    height: 47px;
-    width: 250px;
-    margin: 15px;
-    text-align: center;
-}
-
-.theme2{
-    background-color: #FACF19;
-    height: 47px;
-    width: 250px;
-    margin: 15px;
-    text-align: center;
-}
-.theme3{
-    background-color: #FACF19;
-    height: 47px;
-    width: 250px;
-    margin: 15px;
-    text-align: center;
-}
-.theme4{
-    background-color: #FACF19;
-    height: 47px;
-    width: 250px;
-    margin: 15px;
-    text-align: center;
-}
-.theme5{
+.theme{
     background-color: #FACF19;
     height: 47px;
     width: 250px;
@@ -91,24 +61,68 @@ main{
 .specialty{
     display: flex;
     flex-flow: column;
-    background-color: white;
+    background-color:#8DAC5A;
     height: 90vh;
     width: 40vw;
 }
 
 
-.pannier{
-    background-color:#8DAC5A ;
-    height: 200px;
-    width: 300px;
+.pannier, .star{
+    background-color:#FACF19 ;
+    height: 300px;
+    width: 400px;
     margin: 50px;
     text-align: center;
 }
 
-.star{
-    background-color:#8DAC5A ;
-    height: 200px;
-    width: 300px;
-    margin: 50px;
+
+.alllegumes, .allfruits {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: flex-start;
+    background-color: #8DAC5A;
+    height: 400px;
+    width: 100%;
+}
+
+.alllegumes > div, .allfruits > div {
+    flex-basis: 20%;
+}
+
+.fruit, .legume{
+    background-color: #FACF19;
+    height: 100px;
+    width: 18%;
+    margin: 15px;
     text-align: center;
 }
+
+footer {
+    background-color: wheat;
+    padding: 20px;
+}
+  
+  .footer-items {
+    display: flex;
+  }
+  
+  .footer-item {
+    margin-right: 17%;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: brown;
+  }
+  
+  img{
+    height: 20px;
+    margin-left: 5px;
+  }
+
+
+  #image{
+    margin-left: 60px;
+  }
