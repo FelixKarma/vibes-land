@@ -5,15 +5,15 @@ body{
 /* Section globale */
 #banniere{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #FACF19;
-    height: 100px;
+    height: 140px;
 }
 
 .conteneurs-centred{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 33%;
+    text-align: center;
 }
 
 .nom-slogan{
@@ -23,6 +23,7 @@ body{
 /* h1 */
 #nom-du-site{
     font-size: 40px;
+    margin: 0;
     font-family: 'Amethysta', serif;
     color: #EBE4CB;
     -webkit-text-stroke: 2px #AC7C5B;
@@ -31,6 +32,7 @@ body{
 /* h2 */
 #slogan-du-site{
     font-family: 'Amethysta', serif;
+    margin: 0;
     color: #EBE4CB;
     -webkit-text-stroke: 2px #AC7C5B;
 }
@@ -44,7 +46,12 @@ body{
 }
 
 #bouton-connexion{
+    display: flex;
     font-size: 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid black;
+    align-items: center;
 }
 
 #cart{
@@ -69,4 +76,13 @@ nav{
     text-decoration: none;
     color: black;
     font-family: 'Amethysta', serif;
+}
+
+.flexi{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#lienBouton{
+    text-decoration: none;
 }
