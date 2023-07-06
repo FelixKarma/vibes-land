@@ -4,28 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIBESLAND-Fruitsetlégumes</title>
-    <link rel="stylesheet" href="/html/css/fruitsetlegumes.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amethysta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/fruitsetlegumes.css">
 </head>
+
 <body>
+
     <header>
+        <section id="banniere">
+            <section class="conteneurs-centred nom-slogan">
+                <h1 id="nom-du-site">VIBE'S LAND</h1>
+                <h2 id="slogan-du-site">VIENS GRATTER DU BONHEUR</h2>
+            </section>
+            
+            <div class="conteneurs-centred">
+                <img src="../img/Logo final VIBE'S LAND.png" alt="logo VIBE'S LAND" id="logo">
+            </div>
 
-    <div class="title">
-        <div class="legjoy"><p>Les légumes de la joie</p></div>
-        <img class="firstimg" src="/img/greencircle.jpeg" alt="">
-        <div class="fruijoy"><p>Au bonheur fruité</p></div> 
-    </div>
+            <section class="conteneurs-centred boutons-connexion-cart">
+                <div class="flexi">
+                    <a href="connexion.html" id="lienBouton"><button id="bouton-connexion"><img src="../img/icon profil.png" alt="profil" height="25px"> Connexion</button></a>
+                    <a href="mon panier.html">
+                        <img src="../img/cart.png" alt="panier" id="cart">
+                    </a>
+                </div>
+            </section>
+        </section>
 
+        <hr>
+
+        <nav>
+            <a href="viande.html" class="nav-flex">VIANDE</a>
+            <a href="#allfruits" class="nav-flex">FRUITS</a>
+            <a href="#alllegumes" class="nav-flex">LÉGUMES</a>
+            <a href="contact.html" class="nav-flex">CONTACTEZ-NOUS</a>
+        </nav>
     </header>
-
 
 <main>
     <div class="theme-a">
         <h3>Composez votre pannier par thème</h3>
-        <div class="theme"><h3>La douceur</h3></div>
-        <div class="theme"><h3>L'escalade</h3></div>
-        <div class="theme"><h3> L'upper-cut</h3></div>
-        <div class="theme"><h3>La sauvagérie</h3></div>
-        <div class="theme"><h3>Nature</h3></div>
+        <div class="theme"><a href="ladouceur.html">La douceur</a></div>
+        <div class="theme"><a href="lescalade.html">L'escalade</a></div>
+        <div class="theme"><a href="uppercut.html">L'uppercut</a></div>
+        <div class="theme"><a href="lasauvagerie.html">La sauvagérie</a></div>
+        <div class="theme"><a href="nature.html">Nature</a></div>
     </div>
 
     <div class="specialty">
@@ -33,8 +57,8 @@
             <div class="star"><h3>Star</h3></div>
     </div>
 </main>
-
-<div class="allfruits">
+<h2>Les fruits</h2>
+<div id="allfruits">
     <div class="fruit"></div>
     <div class="fruit"></div>
     <div class="fruit"></div>
@@ -49,7 +73,8 @@
     <div class="fruit"></div>
     
 </div>
-<div class="alllegumes">
+<h2>Les légumes</h2>
+<div id="alllegumes">
     <div class="legume"></div>
     <div class="legume"></div>
     <div class="legume"></div>

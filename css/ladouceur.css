@@ -1,0 +1,30 @@
+.introtext{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 25px;
+}
+
+#legumes, #fruits {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: flex-start;
+    background-color: #8DAC5A;
+    height: 360px;
+    width: 100%;
+}
+
+#legumes > div, #fruits > div {
+    flex-basis: 40%;
+}
+
+.fruit1, .legume1{
+    background-color: #FACF19;
+    height: 150px;
+    width: 18%;
+    margin: 15px;
+    text-align: center;
+}

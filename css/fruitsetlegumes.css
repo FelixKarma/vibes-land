@@ -4,7 +4,7 @@ body{
     background-color: #D9D9D9;
 }
 
-header{
+.top{
     display: flex;
     background-color: #FEFFFC;
     height: 261px;
@@ -58,6 +58,11 @@ main{
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
 .specialty{
     display: flex;
     flex-flow: column;
@@ -76,8 +81,8 @@ main{
 }
 
 
-.alllegumes, .allfruits {
-    margin-top: 15px;
+#alllegumes, #allfruits {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
@@ -87,7 +92,7 @@ main{
     width: 100%;
 }
 
-.alllegumes > div, .allfruits > div {
+#alllegumes > div, #allfruits > div {
     flex-basis: 20%;
 }
 
@@ -125,4 +130,10 @@ footer {
 
   #image{
     margin-left: 60px;
+  }
+
+  h2{
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
