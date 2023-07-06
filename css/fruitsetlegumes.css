@@ -94,7 +94,7 @@ a {
     justify-content:center;
     align-content: flex-start;
     background-color: #8DAC5A;
-    height: 400px;
+    height: 460px;
     width: 100%;
 }
 
@@ -104,7 +104,7 @@ a {
 
 .fruit, .legume{
     background-color: #FACF19;
-    height: 100px;
+    height: 120px;
     width: 18%;
     margin: 15px;
     text-align: center;
