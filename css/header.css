@@ -22,19 +22,22 @@ body{
 
 /* h1 */
 #nom-du-site{
-    font-size: 40px;
+    font-size: 55px;
     margin: 0;
     font-family: 'Amethysta', serif;
     color: #EBE4CB;
-    -webkit-text-stroke: 2px #AC7C5B;
+    -webkit-text-stroke: 0.8px #AC7C5B;
+    text-shadow: 1px 1px 2px black;
 }
 
 /* h2 */
 #slogan-du-site{
+    font-size: 31px;
     font-family: 'Amethysta', serif;
     margin: 0;
     color: #EBE4CB;
-    -webkit-text-stroke: 2px #AC7C5B;
+    -webkit-text-stroke: 0.4px #AC7C5B;
+    text-shadow: 1px 1px 2px black;
 }
 
 #logo{
@@ -85,4 +88,8 @@ nav{
 
 #lienBouton{
     text-decoration: none;
+}
+
+#navContactezNous{
+    border-left: 2px solid black ;
 }
