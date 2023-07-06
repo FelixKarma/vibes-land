@@ -61,13 +61,13 @@ body{
     height: 40px;
 }
 
-hr{
+#hrHeader{
     margin: 0;
     color: #EEEEEE;
     background-color: #EEEEEE;
 }
 
-nav{
+.navBarre{
     background-color: #FACF19;
     display: flex;
     font-size: 20px;
