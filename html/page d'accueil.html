@@ -5,59 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>VIBE'S LAND - Page d'accueil</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amethysta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/page d'accueil.css">
 </head>
+
 <body>
-    <section>
-        <h1>QUI SOMMES-NOUS ?</h1>
-
-        <img src="../img/photo qui sommes nous.jpg" alt="photo ferme" height="850">
-        <img src="../img/gros zdeh.png" alt="gros zdeh" height="60">
-        <img src="../img/smoke cloud.png" alt="smoke cloud" height="80">
+  <header>
+    <section id="banniere">
+        <section class="conteneurs-centred nom-slogan">
+            <h1 id="nom-du-site">VIBE'S LAND</h1>
+            <h2 id="slogan-du-site">VIENS GRATTER DU BONHEUR</h2>
+        </section>
         
-        <p>
-            Qui sommes nous ? Une idée innovante provenant de Ch'Nord ! Nous sommes une petite ferme qui a développé un concept unique. Tout nos produits sont à base de CBD d'une manière ou d'une autre. Nous savons que le CBD à des vertues : appaisante, anti-inflamatoire, contre l'anxiété ... Nous avons développé à partir du CBD que nous faisons pousser directement chez nous un engrais aux propriétés extraordinaires. Les légumes qui poussent à base d'engrais de CBD ont des vitamines supérieures aux produits classiques. Ils poussent de la même manière mais sont 4x meilleurs en apport de vitamines journalières. Les tests que nous
-        </p>
-    </section>
-    <section>
-        <h1>VENEZ NOUS RENDRE VISITE</h1>
-        <h3>tous les mardi et vendredi de 10h à 17h</h3>
+        <div class="conteneurs-centred">
+            <a href="page d'accueil.html"><img src="../img/Logo final VIBE'S LAND.png" alt="logo VIBE'S LAND" id="logo"></a>
+        </div>
 
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <section class="conteneurs-centred boutons-connexion-cart">
+            <div class="flexi">
+                <a href="connexion.html" id="lienBouton"><button id="bouton-connexion"><img src="../img/icon profil.png" alt="profil" height="25px">Connexion</button></a>
+                <a href="mon panier.html">
+                    <img src="../img/cart.png" alt="panier" id="cart">
+                </a>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../img/photo biquettes.jpg" class="d-block w-100" alt="photo biquettes">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Découvrez les biquettes sous stupéfiants, ça vaut le détour</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="../img/photo degustation.JPG" class="d-block w-100" alt="photo degustation">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Dégustation de weed, fruits, légumes et viande au CBD</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="../img/photo potager.jpg" class="d-block w-100" alt="photo potager">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Nos végétaux poussent grâce à de l'engrais de CBD</h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+        </section>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <hr>
+
+    <nav>
+        <a href="viande.html" class="nav-flex">VIANDE</a>
+        <a href="fruits.html" class="nav-flex">FRUITS</a>
+        <a href="légumes.html" class="nav-flex">LÉGUMES</a>
+        <a href="contact.html" class="nav-flex" id="navContactezNous">CONTACTEZ-NOUS</a>
+    </nav>
+  </header>
+
+  <section>
+    <h1 class="grosTitres">QUI SOMMES-NOUS ?</h1>
+
+    <img src="../img/photo qui sommes nous.jpg" alt="photo ferme" id="photoFerme">
+    <img src="../img/gros zdeh.png" alt="gros zdeh" height="60" id="grosZdeh">
+    <img src="../img/smoke cloud.png" alt="smoke cloud" height="80" id="smokeCloud">
+      
+    <p id="paveQuiSommesNous">
+      Qui sommes nous ? Une idée innovante provenant de Ch'Nord ! Nous sommes une petite ferme qui a développé un concept unique. Tout nos produits sont à base de CBD d'une manière ou d'une autre. Nous savons que le CBD à des vertues : appaisante, anti-inflamatoire, contre l'anxiété ... Nous avons développé à partir du CBD que nous faisons pousser directement chez nous un engrais aux propriétés extraordinaires. Les légumes qui poussent à base d'engrais de CBD ont des vitamines supérieures aux produits classiques. Ils poussent de la même manière mais sont 4x meilleurs en apport de vitamines journalières.
+    </p>
+    </section>
+
+    <section>
+      <h1 class="grosTitres">VENEZ NOUS RENDRE VISITE</h1>
+      <h3 class="grosTitres">tous les mardi et vendredi de 10h à 17h</h3>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/photo biquettes.jpg" class="d-block w-100" alt="photo biquettes">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="lettresEntourees">Découvrez les biquettes sous stupéfiants, ça vaut le détour</h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../img/photo degustation.JPG" class="d-block w-100" alt="photo degustation">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="lettresEntourees">Dégustation de weed, fruits, légumes et viande au CBD</h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../img/photo potager.jpg" class="d-block w-100" alt="photo potager">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="lettresEntourees">Nos végétaux poussent grâce à de l'engrais de CBD</h1>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

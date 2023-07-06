@@ -1,0 +1,16 @@
+tr:nth-of-type(2n){
+    background-color: gold;
+    }
+    
+    table{
+        box-shadow: 0px 3px 10px green;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    body{
+        text-align: center;
+    
+    }
+    
