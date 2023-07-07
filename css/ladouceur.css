@@ -38,3 +38,31 @@
     height:100%;
     width: 60%;
 }
+
+footer {
+  background-color: #FACF19;
+  padding: 20px;
+}
+
+.footer-items {
+  display: flex;
+}
+
+.footer-item {
+  margin-right: 17%;
+  text-decoration: none;
+}
+
+a:hover{
+  color: brown;
+}
+
+.footerimage{
+  height: 20px;
+  margin-left: 5px;
+}
+
+
+#image{
+  margin-left: 60px;
+}
