@@ -32,11 +32,23 @@
 .fruit1 img{
     height:100%;
     width: 60%;
+    flex-grow: 4;
+    transition: flex-grow 0.3s;
 }
 
 .legume1 img{
     height:100%;
     width: 60%;
+    flex-grow: 4;
+    transition: flex-grow 0.3s;
+}
+
+.fruit1:hover{
+  flex-grow: 10;
+}
+
+.legume1:hover{
+  flex-grow: 10;
 }
 
 footer {
