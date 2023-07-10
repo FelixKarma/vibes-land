@@ -78,3 +78,36 @@ a:hover{
 #image{
   margin-left: 60px;
 }
+
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 350px;
+  width: 250px;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+}
+
+.popup-text {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.popup-button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1àpx;
+}
+
+.command-button-text{
+  text-decoration: none;
+}

@@ -1,6 +1,10 @@
 footer {
+
     background-color: #FACF19;
     padding: 20px;
+    position: static;
+    bottom: 0;
+    width: 100%;
 }
   
   .footer-items {
@@ -11,6 +15,7 @@ footer {
     margin-right: 17%;
     text-decoration: none;
   }
+
 
   a:hover{
     color: brown;

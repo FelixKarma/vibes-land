@@ -48,17 +48,17 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rerum dignissimos
     </div>
 
 <div id="fruits">
-    <div class="fruit1"><img src="/img/banane.jpeg" alt="banane"></div>
-    <div class="fruit1"><img src="/img/fraise_nature.jpeg" alt="fraise"></div>
-    <div class="fruit1"><img src="/img/pomme.jpeg" alt="pomme"></div>
-    <div class="fruit1"><img src="/img/kiwi.jpeg" alt=""></div>
+    <div class="fruit1"><img src="/img/banane.jpeg" alt="banane"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="fruit1"><img src="/img/fraise_nature.jpeg" alt="fraise"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="fruit1"><img src="/img/pomme.jpeg" alt="pomme"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="fruit1"><img src="/img/kiwi.jpeg" alt=""><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
     
 </div>
 <div id="legumes">
-    <div class="legume1"><img src="/img/pomme de terre.jpeg" alt="pomme de terre"></div>
-    <div class="legume1"><img src="/img/tomate.jpeg" alt="tomate"></div>
-    <div class="legume1"><img src="/img/carotte.jpeg" alt="carotte"></div>
-    <div class="legume1"><img src="/img/concombre.jpeg" alt=""></div>
+    <div class="legume1"><img src="/img/pomme de terre.jpeg" alt="pomme de terre"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume1"><img src="/img/tomate.jpeg" alt="tomate"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume1"><img src="/img/carotte.jpeg" alt="carotte"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume1"><img src="/img/concombre.jpeg" alt=""><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
 
 </div>
 <footer>
@@ -86,10 +86,23 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rerum dignissimos
         <a  href="https://twitter.com/lang=fr">
             <img class="footerimage" src="../img/twitter.png" alt="facebook">
     </div>
-
-
-    
     </div>
+
+    <div class="popup-container" id="popupContainer">
+        <div class="popup-text">
+          Nous sommes ravis de vous présenter ce produit qui est  le fruit d'un soigneux mélange entre le CBD et le produit. Nous avons créé cette délicieuse combinaison pour offrir une expérience unique. Nos produits sont le choix parfait pour ceux qui recherchent une alternative saine et naturelle pour se détendre et se ressourcer. 
+          <button class="command-button"><a href="#" class="command-button-text">Ajouter au panier</a></button>
+      
+      
+        </div>
+      </div>
   </footer>
+
+  <script>
+    function togglePopup() {
+      var popup = document.getElementById("popupContainer");
+      popup.style.display = (popup.style.display === "block") ? "none" : "block";
+    }
+  </script>
 </body>
 </html>

@@ -46,24 +46,35 @@
     <h2 class="myh2">Les légumes</h2>
     <br>
     <div class="introtext">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rerum dignissimos eaque, quas at vel animi odit ipsa facere voluptas iusto omnis dicta autem magni quos est laborum! Exercitationem eos aperiam nulla consequuntur ipsam dicta magnam asperiores ad ipsa sint laborum ab, ullam laudantium perferendis dolorem earum commodi mollitia omnis!
+        Nous sommes ravis de vous présenter nos derniers produits : des légumes infusés au CBD. Lorsque vous savourez nos produits, vous vous offrez un moment de détente et de plaisir tout en nourrissant votre corps avec des ingrédients naturels. Le CBD, extrait de manière responsable à partir de plantes de chanvre de haute qualité, est réputé pour ses propriétés apaisantes et relaxantes. Lorsque les saveurs se mêlent dans votre bouche, vous ressentez un léger bien-être qui vous accompagne tout au long de la journée. Laissez-vous tenter par cette délicieuse combinaison de saveurs et de bienfaits.
     </div>
  <br>
 
  <div id="alllegumes">
-    <div class="legume"><a href="#"><img src="/img/asperge.jpeg" alt="asperge"></a></div>
-    <div class="legume"><a href="#"><img src="/img/aubergine.jpeg" alt="aubergine"></a></div>
-    <div class="legume"><a href="#"><img src="/img/betterave.jpeg" alt="betterave"></a></div>
-    <div class="legume"><a href="#"><img src="/img/brocoli.jpeg" alt="brocoli"></a></div>
-    <div class="legume"><a href="#"><img src="/img/carotte.jpeg" alt="carotte"></a></div>
-    <div class="legume"><a href="#"><img src="/img/choux.jpeg" alt="choux"></a></div>
-    <div class="legume"><a href="#"><img src="/img/concombre.jpeg" alt="concombre"></a></div>
-    <div class="legume"><a href="#"><img src="/img/courgette.jpeg" alt="courgette"></a></div>
-    <div class="legume"><a href="#"><img src="/img/harricot vert.jpeg" alt="harricot"></a></div>
-    <div class="legume"><a href="#"><img src="/img/laitue.jpeg" alt="laitue"></a></div>
-    <div class="legume"><a href="#"><img src="/img/oignon.jpeg" alt="oignon"></a></div>
-    <div class="legume"><a href="#"><img src="/img/poivron.jpeg" alt="poivron"></a></div>
+    <div class="legume"><img src="/img/asperge.jpeg" alt="asperge"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume"><img src="/img/aubergine.jpeg" alt="aubergine"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume"><img src="/img/betterave.jpeg" alt="betterave"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume"><img src="/img/brocoli.jpeg" alt="brocoli"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume"><img src="/img/carotte.jpeg" alt="carotte"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume"><img src="/img/choux.jpeg" alt="choux"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume"><img src="/img/concombre.jpeg" alt="concombre"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume"><img src="/img/courgette.jpeg" alt="courgette"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume"><img src="/img/harricot vert.jpeg" alt="harricot"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume"><img src="/img/laitue.jpeg" alt="laitue"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume"><img src="/img/oignon.jpeg" alt="oignon"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume"><img src="/img/poivron.jpeg" alt="poivron"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
 </div>
+
+
+<div class="popup-container" id="popupContainer">
+    <div class="popup-text">
+      Nous sommes ravis de vous présenter ce produit qui est  le fruit d'un soigneux mélange entre le CBD et le produit. Nous avons créé cette délicieuse combinaison pour offrir une expérience unique. Nos produits sont le choix parfait pour ceux qui recherchent une alternative saine et naturelle pour se détendre et se ressourcer. 
+      <button class="command-button"><a href="#" class="command-button-text">Ajouter au panier</a></button>
+
+    </div>
+  </div>
+
+
 <footer>
     <div class="footer-items">
 
@@ -89,10 +100,15 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rerum dignissimos
         <a  href="https://twitter.com/lang=fr">
             <img class="footerimage" src="../img/twitter.png" alt="facebook">
     </div>
-
-
-    
     </div>
   </footer>
+
+
+  <script>
+    function togglePopup() {
+      var popup = document.getElementById("popupContainer");
+      popup.style.display = (popup.style.display === "block") ? "none" : "block";
+    }
+  </script>
 </body>
 </html>

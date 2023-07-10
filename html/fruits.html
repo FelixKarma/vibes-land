@@ -44,27 +44,40 @@
         </nav>
     </header>
     <h2 class="myh2">Les fruits</h2>
-    <br>
     <div class="introtext">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rerum dignissimos eaque, quas at vel animi odit ipsa facere voluptas iusto omnis dicta autem magni quos est laborum! Exercitationem eos aperiam nulla consequuntur ipsam dicta magnam asperiores ad ipsa sint laborum ab, ullam laudantium perferendis dolorem earum commodi mollitia omnis!
+        Nous sommes ravis de vous présenter nos derniers produits : des fruits infusés au CBD. 
+        Lorsque vous dégustez nos produits, vous vous offrez un moment de détente et de plaisir tout en nourrissant votre corps avec des ingrédients naturels. Le CBD, extrait de manière responsable à partir de plantes de chanvre de haute qualité, est réputé pour ses propriétés apaisantes et relaxantes.Lorsque les saveurs se mêlent dans votre bouche, vous ressentez un léger bien-être qui vous accompagne tout au long de la journée. Laissez-vous tenter par cette délicieuse combinaison de saveurs et de bienfaits. 
+          
+        
     </div>
  <br>
 
     <div id="allfruits">
-        <div class="fruit"><a href="#"><img src="/img/orange_real.jpeg" alt="orange"></a></div>
-        <div class="fruit"><a href="#"><img src="/img/cassis.jpeg" alt="cassis"></a></div>
-        <div class="fruit"><a href="#"><img src="/img/cerise.jpeg" alt="cerise"></a></div>
-        <div class="fruit"><a href="#"><img src="/img/coings.jpeg" alt="coings"></a></div>
-        <div class="fruit"><a href="#"><img src="/img/figue.jpeg" alt="figue"></a></div>
-        <div class="fruit"><a href="#"><img src="/img/framboise.jpeg" alt="framboise"></a></div>
-        <div class="fruit"><a href="#"><img src="/img/grosseille.jpeg" alt="grosseille"></a></div>
-        <div class="fruit"><a href="#"><img src="/img/kiwi.jpeg" alt="kiwi"></a></div>
-        <div class="fruit"><a href="#"><img src="/img/laitue.jpeg" alt="laitue"></a></div>
-        <div class="fruit"><a href="#"><img src="/img/mûre.jpeg" alt="mûre"></a></div>
-        <div class="fruit"><a href="#"><img src="/img/navets.jpeg" alt="navets"></a></div>
-        <div class="fruit"><a href="#"><img src="/img/nectarine.jpeg" alt="nectarine"></a></div>
+        <div class="fruit"><img src="/img/orange_real.jpeg" alt="orange"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+        <div class="fruit"><img src="/img/cassis.jpeg" alt="cassis"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+        <div class="fruit"><img src="/img/cerise.jpeg" alt="cerise"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+        <div class="fruit"><img src="/img/coings.jpeg" alt="coings"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+        <div class="fruit"><img src="/img/figue.jpeg" alt="figue"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+        <div class="fruit"><img src="/img/framboise.jpeg" alt="framboise"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+        <div class="fruit"><img src="/img/grosseille.jpeg" alt="grosseille"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+        <div class="fruit"><img src="/img/kiwi.jpeg" alt="kiwi"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+        <div class="fruit"><img src="/img/laitue.jpeg" alt="laitue"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+        <div class="fruit"><img src="/img/mûre.jpeg" alt="mûre"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+        <div class="fruit"><img src="/img/navets.jpeg" alt="navets"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+        <div class="fruit"><img src="/img/nectarine.jpeg" alt="nectarine"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
         
     </div>
+
+
+    <div class="popup-container" id="popupContainer">
+        <div class="popup-text">
+          Nous sommes ravis de vous présenter ce produit qui est  le fruit d'un soigneux mélange entre le CBD et le produit. Nous avons créé cette délicieuse combinaison pour offrir une expérience unique. Nos produits sont le choix parfait pour ceux qui recherchent une alternative saine et naturelle pour se détendre et se ressourcer. 
+          <button class="command-button"><a href="#" class="command-button-text">Ajouter au panier</a></button>
+      
+      
+        </div>
+      </div>
+
 <footer>
     <div class="footer-items">
 
@@ -95,5 +108,12 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rerum dignissimos
     
     </div>
   </footer>
+
+  <script>
+    function togglePopup() {
+      var popup = document.getElementById("popupContainer");
+      popup.style.display = (popup.style.display === "block") ? "none" : "block";
+    }
+  </script>
 </body>
 </html>

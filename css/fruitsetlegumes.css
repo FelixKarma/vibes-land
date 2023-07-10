@@ -102,7 +102,7 @@ main{
 
 .fruit, .legume{
     background-color: #FACF19;
-    height: 120px;
+    height: 110px;
     width: 18%;
     margin: 15px;
     text-align: center;
@@ -180,15 +180,50 @@ footer {
     justify-content: center;
   }
   
-  .popup-content {
+  /* .popup-content {
     background-color: #fff;
     padding: 20px;
     max-width: 400px;
     text-align: center;
-  }
+  } */
   
   .close {
     display: block;
     margin-top: 20px;
     text-align: center;
   }
+
+  
+      .popup-container {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        height: 350px;
+        width: 250px;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        z-index: 9999;
+      }
+      
+      .popup-text {
+        font-size: 18px;
+        line-height: 1.4;
+      }
+      
+      .popup-button {
+        cursor: pointer;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 1àpx;
+      }
+
+      .command-button-text{
+        text-decoration: none;
+      }
+

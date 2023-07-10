@@ -48,17 +48,17 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rerum dignissimos
     </div>
 
 <div id="fruits">
-    <div class="fruit1"><img src="/img/châtaigne.jpeg" alt="châtaigne"></div>
-    <div class="fruit1"><img src="/img/fraise des bois.jpeg" alt="fraise des bois"></div>
-    <div class="fruit1"><img src="/img/sureau.jpeg" alt="sureau"></div>
-    <div class="fruit1"><img src="/img/nèflle.jpeg" alt="nèfle"></div>
+    <div class="fruit1"><img src="/img/châtaigne.jpeg" alt="châtaigne"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="fruit1"><img src="/img/fraise des bois.jpeg" alt="fraise des bois"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="fruit1"><img src="/img/sureau.jpeg" alt="sureau"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="fruit1"><img src="/img/nèflle.jpeg" alt="nèfle"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
     
 </div>
 <div id="legumes">
-    <div class="legume1"><img src="/img/laitue sauvage.jpeg" alt="laitue sauvage"></div>
-    <div class="legume1"><img src="/img/oseille sauvage.jpeg" alt="oseille sauvage"></div>
-    <div class="legume1"><img src="/img/chénopode sauvage.jpeg" alt="chénopode"></div>
-    <div class="legume1"><img src="/img/pissenlit sauvage.jpeg" alt="pissenlit"></div>
+    <div class="legume1"><img src="/img/laitue sauvage.jpeg" alt="laitue sauvage"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume1"><img src="/img/oseille sauvage.jpeg" alt="oseille sauvage"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume1"><img src="/img/chénopode sauvage.jpeg" alt="chénopode"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume1"><img src="/img/pissenlit sauvage.jpeg" alt="pissenlit"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
 
 </div>
 <footer>
@@ -86,10 +86,24 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rerum dignissimos
         <a  href="https://twitter.com/lang=fr">
             <img class="footerimage" src="../img/twitter.png" alt="facebook">
     </div>
-
-
     
     </div>
+
+    <div class="popup-container" id="popupContainer">
+        <div class="popup-text">
+          Nous sommes ravis de vous présenter ce produit qui est  le fruit d'un soigneux mélange entre le CBD et le produit. Nous avons créé cette délicieuse combinaison pour offrir une expérience unique. Nos produits sont le choix parfait pour ceux qui recherchent une alternative saine et naturelle pour se détendre et se ressourcer. 
+          <button class="command-button"><a href="#" class="command-button-text">Ajouter au panier</a></button>
+      
+      
+        </div>
+      </div>
   </footer>
+
+  <script>
+    function togglePopup() {
+      var popup = document.getElementById("popupContainer");
+      popup.style.display = (popup.style.display === "block") ? "none" : "block";
+    }
+  </script>
 </body>
 </html>
