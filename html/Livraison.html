@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<br lang="fr">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Livraison.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/Créa compte.css">
-    <title>VIBE'S LAND - Créer un compte</title>
+    <title>VIBES'LAND - Livraison</title>
 </head>
+
+
 <body>
     <header>
         <section id="banniere">
@@ -40,45 +42,58 @@
         </nav>
       </header>
 
-<!-- Formulaire création de compte -->
-<section id="Form">
-    <h2 id="Créer">Créer un compte</h2>
-
-<h4 id="Créer">Champs obligatoires*</h4>
-</br>
-
-<label for="Civilité">Civilité* :</label>
+<main>
+<section id="Livraison1">
+<article>
+    <h3 id="domicile">Livraison à domicile</h3>
+    <h5>Champs obligatoires*</h5>
 
 <label for="Monsieur"><input type="radio" name="Civilité" value="Civilité" id="Monsieur" checked>Monsieur</label>
 <label for="Madame"><input type="radio" name="Civilité" value="Civilité" id="Madame">Madame</label>
-<label for="Autre"><input type="radio" name="Civilité" value="Civilité" id="Autre">Autre</label>
+<label for="Autre"><input type="radio" name="Civilité" value="Civilité" id="Autre">Autre</label><br>
 </br>
+<input type="text" name="Votre nom" id="Votre nom" placeholder="Nom*" required></label></br>
 </br>
-
-<label for="Adresse mail">Adresse mail* :</label>
- <input type="text" name="Adresse mail" id="Adresse mail" placeholder="Adresse mail" required></label><br>
+<input type="texte" name="Votre prénom" id="Votre prénom" placeholder="Prénom*" required></label></br>
 </br>
-
-<label for="Mot de passe">Mot de passe* :</label>
- <input type="text" name="Mot de passe" id="Mot de passe" placeholder="Mot de passe" required></label><br>
+<input type="texte" name="Adresse" id="Adresse" placeholder="Adresse*" required></label></br>
 </br>
-
-<label for="Confirmation MDP">Confirmer mot de passe* :</label>
- <input type="text" name="Confirmation MDP" id="Confirmation MDP" placeholder="Confirmation mot de passe" required></label><br>
-
- <label for="OK CGU"></label><br>
-<label for="OK CGU"><input type="checkbox" name="OK CGU" value="OK CGU" id="OK CGU" required>J'ai lu et j'accepte les conditions générales d'utilisation*</label><br>
-
-<label for="Newletter"></label><br>
-<label for="OK Newletter"><input type="checkbox" name="OK Newletter" value="OK Newletter" id="OK Newletter">Je souhaite recevoir la newsletter de VIBES'LAND</label><br>
+<input type="texte" name="Ville" id="Ville" placeholder="Ville*" required></label></br>
 </br>
-
-<div>
-<input id="bouton" type="submit" value="C'est parti !">
+<input type="texte" name="Code Postal" id="Code Postal" placeholder="Code Postal*" required></label></br>
+</br>
+<input type="tel" name="Votre numéro" id="Votre numéro" placeholder="Numéro de téléphone*" required></label></br>
+</br>
+</article>
+<input type="submit" value="C'est parti !">
 </section>
-<section>
-</div>      
-</section>
+
+<section id="Livraison2">
+<article>
+    <h3 id="collect">Click and Collect</h3>
+    <h5>Champs obligatoires*</h5>
+
+    <input type="text" name="Votre nom" id="Votre nom" placeholder="Nom*" required></label></br>
+</br>
+    <input type="texte" name="Votre prénom" id="Votre prénom" placeholder="Prénom*" required></label></br>
+</br>
+    <input type="tel" name="Votre numéro" id="Votre numéro" placeholder="Numéro de téléphone*" required></label><br>
+</br>
+    </br>
+    <label for="Date récupération">Date de retrait de la commande*</label><br>
+    </br>
+    <input type="date" name="Date récupération" value="Date récupération" id="Date récupération" min="2023-06-21"><br>
+    </br>
+    <label for="Horaires récupération Click and Collect">Horaires de retrait de la commande*</label><br>
+    </br>
+    <label for="Horaires"><input type="radio" name="Horaires" value="Horaires" id="10H/11H" checked>10H/11H</label><br>
+    <label for="Horaires"><input type="radio" name="Horaires" value="Horaires" id="14H/15H">14H/15H</label><br>
+    <label for="Horaires"><input type="radio" name="Horaires" value="Horaires" id="18H/19H">18H/19H</label>
+</br>
+</br>
+
+<input id="Bouton" type="submit" value="C'est parti !">
+</div></main>
 
 <footer>
     <div class="footer-items">
@@ -106,8 +121,9 @@
             <img class="footerimage" src="../img/twitter.png" alt="facebook">
     </div>
 
+
+    
     </div>
   </footer>
-
 </body>
 </html>

@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif, arial;
+}
+main{
+    display: flex;
+    margin-bottom: 6%;
+}
+.popo{
+    display: flex;
+    color: #FACF19;
+}
+.popo1{
+    display: flex;
+    justify-content: center;
+    background-color: #FACF19;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+.popo2{
+    display: flex;
+    justify-content: center;
+    background-color: #FACF19;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+.popo3{
+    display: flex;
+    justify-content: center;
+    background-color: #FACF19;
+    border-radius: 30px;
+}
+
+.titi1{
+    display: flex;
+    justify-content: center;
+    background-color: #A3CC52 ;
+    border-radius: 30px;
+    margin-bottom: 7%;
+    margin-top: 4%; 
+}
+.titi2{
+    justify-content: center;
+    background-color: #A3CC52;
+    border-radius: 30px;
+    margin-bottom: 4%;
+    padding: 9px;
+}
+
+.modl{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.toto1{
+    display: flex;
+    justify-content: center;
+    background-color: #A3CC52 ;
+    border-radius: 30px;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+.toto2{
+    justify-content: center;
+    background-color: #A3CC52 ;
+    border-radius: 30px;
+    margin-bottom: 4%;
+    padding: 10px;
+    
+} 
+
+.vopani,.modl,.modp{
+    width: 33%;
+    padding: 10px;
+    margin: 10px;
+}
+.modl,.modp{ 
+    margin-top:4%
+}
+h2{
+    display: flex;
+}
+
+
+footer{
+    margin-top: 6px;
+}

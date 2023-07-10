@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif, arial;
+    background-color: white;
+    text-align: justify;
+    overflow-y: hidden;
+    overflow-x :hidden;
+    margin-top: 50px;
+
+
+}
+
+#Livraison1{
+        width: 33%;
+        background-color: #FACF19;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        width: 100;
+    border: 6px solid #A3CC52;
+       
+}
+
+#Livraison2{
+        width: 33%;
+        background-color: #FACF19;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.9%;
+        width: 100;
+        border: 6px solid #A3CC52;
+}
+
+main{
+        display: flex;        
+}
+
+
+#domicile{
+        text-align: center;
+        border-bottom: 2px solid black; 
+        /* solid = bordure continue */
+        font-weight: bold;
+}
+
+#collect{
+        text-align: center;
+        border-bottom: 2px solid black; 
+        /* solid = bordure continue */
+        font-weight: bold;
+}
+
+#Bouton{
+    text-align: center;
+}
+
+
+footer{
+        margin-top: 2%;
+    }
+
