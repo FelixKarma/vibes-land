@@ -69,24 +69,95 @@
 </main>
 <h2 class="myh2">produits les plus populaires</h2>
 <div id="allfruits">
-    <div class="legume"><img src="/img/choux.jpeg" alt="choux"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
-    <div class="fruit" ><img src="/img/orange_real.jpeg" alt="orange"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
-    <div class="legume"><img src="/img/poivron.jpeg" alt="poivron"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
-    <div class="fruit"><img src="/img/cerise.jpeg" alt="cerise"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
-    <div class="fruit"><img src="/img/figue.jpeg" alt="figue"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
-    <div class="legume"><img src="/img/oignon.jpeg" alt="oignon"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
-    <div class="fruit"><img src="/img/framboise.jpeg" alt="framboise"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
-    <div class="fruit"><img src="/img/kiwi.jpeg" alt="kiwi"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
-    <div class="fruit"><img src="/img/laitue.jpeg" alt="laitue"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
-    <div class="fruit"><img src="/img/nectarine.jpeg" alt="nectarine"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
-    <div class="legume"><img src="/img/carotte.jpeg" alt="carotte"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
-    <div class="legume"><img src="/img/concombre.jpeg" alt="concombre"><button class="popup-button" onclick="togglePopup()">Plus d'information</button></div>
+    <div class="legume">
+        <img src="/img/choux.jpeg" alt="choux">
+        <div class="extra">
+            <button class="price">choux/Prix:10,5€</button>
+            <button class="popup-button" onclick="togglePopup()">Plus d'info</button>
+        </div>
+    </div>
+    <div class="fruit" ><img src="/img/orange_real.jpeg" alt="orange">
+        <div class="extra">
+        <button class="price">Orange/Prix:8,7€</button>
+        <button class="popup-button" onclick="togglePopup()">Plus d'info</button>
+        </div>
+    </div>
+
+    <div class="legume"><img src="/img/poivron.jpeg" alt="poivron">
+        <div class="extra">
+        <button class="price">Poivron/Prix:5,2€</button>
+        <button class="popup-button" onclick="togglePopup()">Plus d'info</button>
+        </div>
+    </div>
+
+    <div class="fruit"><img src="/img/cerise.jpeg" alt="cerise">
+        <div class="extra">
+        <button class="price">Cérise/Prix: 5,3€/k</button>
+        <button class="popup-button" onclick="togglePopup()">Plus d'info</button>
+        </div>
+    </div>
+
+    <div class="fruit"><img src="/img/figue.jpeg" alt="figue">
+        <div class="extra">
+        <button class="price">Figue/Prix:2,9€</button>
+        <button class="popup-button" onclick="togglePopup()">Plus d'info</button>
+        </div>
+    </div>
+
+    <div class="legume"><img src="/img/oignon.jpeg" alt="oignon">
+        <div class="extra">
+        <button class="price">oignons/Prix:5€/k</button>
+        <button class="popup-button" onclick="togglePopup()">Plus d'info</button>
+        </div>
+    </div>
+
+    <div class="fruit"><img src="/img/framboise.jpeg" alt="framboise">
+        <div class="extra">
+        <button class="price">Framboise/Prix:5,6€/k</button>
+        <button class="popup-button" onclick="togglePopup()">Plus d'info</button>
+        </div>
+    </div>
+
+    <div class="fruit"><img src="/img/kiwi.jpeg" alt="kiwi">
+        <div class="extra">
+        <button class="price">Kiwi/Prix:2,7€</button>
+        <button class="popup-button" onclick="togglePopup()">Plus d'info</button>
+        </div>
+    </div>
+
+    <div class="fruit"><img src="/img/laitue.jpeg" alt="laitue">
+        <div class="extra">
+        <button class="price">Laitue/Prix:4,4€</button>
+        <button class="popup-button" onclick="togglePopup()">Plus d'info</button>
+        </div>
+    </div>
+
+    <div class="fruit"><img src="/img/nectarine.jpeg" alt="nectarine">
+        <div class="extra">
+        <button class="price">Nectarine/Prix:1,50€</button>
+        <button class="popup-button" onclick="togglePopup()">Plus d'info</button>
+        </div>
+    </div>
+
+    <div class="legume"><img src="/img/carotte.jpeg" alt="carotte">
+        <div class="extra">
+        <button class="price">Carotte/Prix:7€/k</button>
+        <button class="popup-button" onclick="togglePopup()">Plus d'info</button>
+        </div>
+    </div>
+
+    <div class="legume"><img src="/img/concombre.jpeg" alt="concombre">
+        <div class="extra">
+        <button class="price">Concombre/Prix:1€</button>
+        <button class="popup-button" onclick="togglePopup()">Plus d'info</button>
+        </div>
+    </div>
+
 </div>
 
 <div class="popup-container" id="popupContainer">
   <div class="popup-text">
-    Nous sommes ravis de vous présenter ce produit qui est  le fruit d'un soigneux mélange entre le CBD et le produit. Nous avons créé cette délicieuse combinaison pour offrir une expérience unique. Nos produits sont le choix parfait pour ceux qui recherchent une alternative saine et naturelle pour se détendre et se ressourcer. 
-    <button class="command-button"><a href="#" class="command-button-text">Ajouter au panier</a></button>
+    Nous sommes ravis de vous présenter ce produit qui est  le fruit d'un soigneux mélange entre le CBD et le produit. Nous avons créé cette délicieuse combinaison pour offrir une expérience unique. Nos produits sont le choix parfait pour ceux qui recherchent une alternative saine et naturelle pour se détendre et se ressourcer<button class="command-button"><a href="#" class="command-button-text">Ajouter au panier</a></button>
   </div>
 </div>
 

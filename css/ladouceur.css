@@ -112,3 +112,22 @@ a:hover{
 .command-button-text{
   text-decoration: none;
 }
+
+
+.price{
+  border-radius: 4px;
+
+}
+.command-button-text{
+  text-decoration: none;
+
+}
+
+.price{
+  border-radius: 4px;
+
+}
+.extra{
+display: flex;
+
+}
