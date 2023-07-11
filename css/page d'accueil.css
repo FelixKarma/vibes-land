@@ -50,9 +50,3 @@
     50%  {opacity: 1 }
     100% {opacity: 0 }
   }
-
-  /* @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
-  } */

@@ -2,6 +2,12 @@ body{
     overflow: hidden;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .grosTitres{
     text-align: center;
 }
