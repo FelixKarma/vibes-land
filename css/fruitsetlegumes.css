@@ -137,10 +137,19 @@ main{
     object-fit: cover;
 }
 
+.pannier:hover{
+  background-color:magenta;
+  opacity: 0.8;
+}
+
 .star img{
         height:100%;
         width: 100%;
         object-fit: cover;
+}
+.star:hover{
+  background-color:magenta;
+  opacity: 0.8;
 }
 
 .legume img{
