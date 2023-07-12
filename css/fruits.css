@@ -112,3 +112,12 @@ a:hover{
 .command-button-text{
   text-decoration: none;
 }
+
+footer {
+
+  /* background-color: #FACF19;
+  padding: 20px; */
+  position: static;
+  /* bottom: 0;
+  width: 100%; */
+}
