@@ -1,14 +1,18 @@
 body{
-    margin: 0px;
+    margin: 0;
     font-family: 'Roboto', sans-serif, arial;
+
 }
 main{
     display: flex;
     margin-bottom: 6%;
+
 }
 .popo{
     display: flex;
     color: #FACF19;
+    text-align: center;
+
 }
 .popo1{
     display: flex;
@@ -16,6 +20,8 @@ main{
     background-color: #FACF19;
     border-radius: 30px;
     margin-bottom: 5%;
+    border: 6px solid #A3CC52;
+
 }
 .popo2{
     display: flex;
@@ -23,12 +29,14 @@ main{
     background-color: #FACF19;
     border-radius: 30px;
     margin-bottom: 5%;
+    border: 6px solid #A3CC52;
 }
 .popo3{
     display: flex;
     justify-content: center;
     background-color: #FACF19;
     border-radius: 30px;
+    border: 6px solid #A3CC52;
 }
 
 .titi1{
@@ -38,6 +46,7 @@ main{
     border-radius: 30px;
     margin-bottom: 7%;
     margin-top: 4%; 
+    border: 6px solid #FACF19;
 }
 .titi2{
     justify-content: center;
@@ -45,6 +54,7 @@ main{
     border-radius: 30px;
     margin-bottom: 4%;
     padding: 9px;
+    border: 6px solid #FACF19;
 }
 
 .modl{
@@ -59,13 +69,16 @@ main{
     border-radius: 30px;
     margin-bottom: 4%;
     margin-top: 3%;
+    border: 6px solid #FACF19;
 }
 .toto2{
-    justify-content: center;
+    
+    
     background-color: #A3CC52 ;
     border-radius: 30px;
     margin-bottom: 4%;
     padding: 10px;
+    border: 6px solid #FACF19;
     
 } 
 
@@ -81,7 +94,26 @@ h2{
     display: flex;
 }
 
+.accordion-button:hover{
+
+}
+
+.accordion-button{
+
+    color: #A3CC52; 
+}
+
+.accordion-collapse{
+    background-color: #A3CC52;
+    color: black;
+}
+
+.accordion-button:focus{
+    justify-content: center;
+    color: white;
+}
 
 footer{
     margin-top: 6px;
 }
+

@@ -3,16 +3,12 @@ body{
     font-family: 'Roboto', sans-serif, arial;
     background-color: white;
     text-align: justify;
-    overflow-y: hidden;
-    overflow-x :hidden;
     margin-top: 50px;
-
-
 }
 
-#Livraison1{
+#headingOne{
         width: 33%;
-        background-color: #FACF19;
+        background-color:#A3CC52;
         padding: 10px;
         margin: 10px;
         border-radius: 10px;
@@ -20,11 +16,11 @@ body{
         margin-right: auto;
         margin-top: 3%;
         width: 100;
-    border: 6px solid #A3CC52;
+    border: 6px solid #FACF19;
        
 }
 
-#Livraison2{
+#headingTwo{
         width: 33%;
         background-color: #FACF19;
         padding: 10px;
@@ -37,29 +33,9 @@ body{
         border: 6px solid #A3CC52;
 }
 
-main{
-        display: flex;        
-}
-
-
-#domicile{
-        text-align: center;
-        border-bottom: 2px solid black; 
-        /* solid = bordure continue */
-        font-weight: bold;
-}
-
-#collect{
-        text-align: center;
-        border-bottom: 2px solid black; 
-        /* solid = bordure continue */
-        font-weight: bold;
-}
-
 #Bouton{
     text-align: center;
 }
-
 
 footer{
         margin-top: 2%;
