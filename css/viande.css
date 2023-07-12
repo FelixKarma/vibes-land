@@ -1,16 +1,201 @@
-tr:nth-of-type(2n){
-    background-color: gold;
-    }
-    
-    table{
-        box-shadow: 0px 3px 10px green;
-        margin-left: auto;
-        margin-right: auto;
-    
-    }
+tr:nth-of-type(2n) {
+    background-color: #FACF19;
+}
+tr:nth-of-type(2n+1) {
+    background-color: #A3CC52;
+}
 
-    body{
-        text-align: center;
-    
-    }
-    
+table {
+    box-shadow: 0px 3px 10px #A3CC52;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+}
+th,td{
+    height: 20px;
+}
+
+.lesCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 3px 10px #FACF19 ;
+    max-width: 100%;
+    max-height: 30%;
+    flex-wrap: wrap-reverse;
+}
+
+.bovins{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    width: 30%;
+    background-color: #A3CC52;
+}
+
+.bovins, .star, .panier{
+    width: 30%;
+    box-shadow: 0px 3px 10px black ;
+    background-color: #FACF19;
+    height: 334px;
+}
+.star{
+    width: 30%;
+    box-shadow: 0px 3px 10px black ;
+    background-color: #FACF19;
+    height: 334px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.panier{
+    width: 30%;
+    box-shadow: 0px 3px 10px black ;
+    background-color: #FACF19;
+    height: 334px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.img {
+    height: 110px;
+    width: 110px;
+}
+body{
+    margin: 0;
+    background-image: url("../img/cbd.jpg");
+    font-family : 'Amethysta', serif ;
+}
+
+main{
+    background: #dbeed8;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#plateau{
+    position: fixed;
+    text-align: left;
+    top: 50%;
+    left: 2%;
+}
+
+/* Section globale */
+#banniere{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FACF19;
+    height: 140px;
+}
+
+.conteneurs-centred{
+    width: 33%;
+    text-align: center;
+}
+
+.nom-slogan{
+    flex-direction: column;
+}
+
+/* h1 */
+#nom-du-site{
+    font-size: 55px;
+    margin: 0;
+    font-family: 'Amethysta', serif;
+    color: #EBE4CB;
+    -webkit-text-stroke: 0.8px #AC7C5B;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* h2 */
+#slogan-du-site{
+    font-size: 31px;
+    font-family: 'Amethysta', serif;
+    margin: 0;
+    color: #EBE4CB;
+    -webkit-text-stroke: 0.4px #AC7C5B;
+    text-shadow: 1px 1px 2px black;
+}
+
+#logo{
+    height: 180px;
+}
+
+.boutons-connexion-cart{
+    justify-content: center;
+}
+
+#bouton-connexion{
+    display: flex;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+#cart{
+    height: 40px;
+}
+
+hr{
+    margin: 0;
+    color: #EEEEEE;
+    background-color: #EEEEEE;
+}
+
+nav{
+    background-color: #FACF19;
+    display: flex;
+    font-size: 20px;
+}
+
+.nav-flex{
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Amethysta', serif;
+}
+
+.flexi{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#lienBouton{
+    text-decoration: none;
+}
+
+#navContactezNous{
+    border-left: 2px solid black ;
+}
+footer {
+    background-color: #FACF19;
+    padding: 20px;
+}
+  
+  .footer-items {
+    display: flex;
+  }
+  
+  .footer-item {
+    margin-right: 17%;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: brown;
+  }
+
+
+  #image{
+    margin-left: 60px;
+  }
+
