@@ -2,13 +2,16 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/recappanier2.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <title>VIBES'LAND - Récapitulatif du panier</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/recappanier2.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>VIBES'LAND - Récapitulatif du panier</title>
 </head>
+
 <header>
     <section id="banniere">
       <section class="conteneurs-centred nom-slogan">
@@ -31,8 +34,6 @@
       </section>
     </section>
 
-    <hr id="hrHeader">
-
     <nav class="navBarre">
       <a href="viande.html" class="nav-flex">VIANDE</a>
       <a href="fruitsetlégumes.html" class="nav-flex">FRUITS</a>
@@ -41,109 +42,285 @@
     </nav>
   </header>
 
-
 <body>
-    <main>
+  <main>
 
-        <!--Ajouter le logo du panier  -->
-        <section class="vopani">
-            <div class="popo">
+    <!--Ajouter le logo du panier  -->
+    <section class="vopani">
+      <div class="popo">
 
-                <h2>Votre panier</h2>
-            </div>
-            <article>
-                <div class="popo1">
+        <h2>Votre panier</h2>
+      </div>
 
-                    <h4>Récapitulatif de votre commande</h4>
-                </div>
-                <section class="popo2">
- 
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque tempora minus vitae similique
-                        aperiam recusandae nulla? Reprehenderit voluptas id obcaecati accusamus commodi esse beatae quae
-                        est. Perferendis earum dolores numquam!
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit, necessitatibus eius
-                        debitis fugiat veniam dignissimos unde veritatis maxime iste temporibus est corrupti minus
-                        assumenda, ab quae quidem quaerat quibusdam!</p>
-                </section>
-                <section class="popo3">
+      <article>
+        <div class="popo1">
+          <h4>Récapitulatif de votre commande</h4>
+        </div>
 
-                    <p>Total de votre commande :</p>
-                </section>
-        </section>
-        </article>
-
-        <section class=" modl">
-            <div class="titi1">
-
-                <h4>Mode de livraison</h4>
-            </div>
-            <article>
-                <div class="titi2">
-
-                    <label for="Livraison à domicile"><input type="checkbox" name="Livraison à domicile"
-                            value="Livraison à domicile" id="Livraison à domicile">Livraison à domicile (3€90) </label>
-                </br>
-                </br>
-                    <label for="Click and Collect"><input type="checkbox" name="Click and Collect"
-                            value="Click and Collect" id="Click and Collect">Click and Collect (gratuit) </label>
-                </div>
-
-            </article>
+        <section class="popo2">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque tempora minus vitae similique
+            aperiam recusandae nulla? Reprehenderit voluptas id obcaecati accusamus commodi esse beatae quae
+            est. Perferendis earum dolores numquam!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit, necessitatibus eius
+            debitis fugiat veniam dignissimos unde veritatis maxime iste temporibus est corrupti minus
+            assumenda, ab quae quidem quaerat quibusdam!</p>
         </section>
 
-        <section class="modp">
-            <div class="toto1">
-                <h4>Moyen de paiement</h4>
+        <section class="popo3">
+          <p>Total de votre commande :</p>
+        </section>
+
+      </article>
+    </section>
+
+    <section class=" modl">
+      <div class="titi1">
+        <h4>Mode de livraison</h4>
+      </div>
+
+      <article>
+        <div class="titi2">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item" id="headingOne">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Livraison à domicile
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <label for="Monsieur"><input type="radio" name="Civilité" value="Civilité" id="Monsieur"
+                      checked>Monsieur</label>
+                  <label for="Madame"><input type="radio" name="Civilité" value="Civilité" id="Madame">Madame</label>
+                  <label for="Autre"><input type="radio" name="Civilité" value="Civilité" id="Autre">Autre</label><br>
+                  </br>
+                  <input type="text" name="Votre nom" id="Votre nom" placeholder="Nom*" required></label></br>
+                  </br>
+                  <input type="texte" name="Votre prénom" id="Votre prénom" placeholder="Prénom*" required></label></br>
+                  </br>
+                  <input type="texte" name="Adresse" id="Adresse" placeholder="Adresse*" required></label></br>
+                  </br>
+                  <input type="texte" name="Ville" id="Ville" placeholder="Ville*" required></label></br>
+                  </br>
+                  <input type="texte" name="Code Postal" id="Code Postal" placeholder="Code Postal*"
+                    required></label></br>
+                  </br>
+                  <input type="tel" name="Votre numéro" id="Votre numéro" placeholder="Numéro de téléphone*"
+                    required></label></br>
+                  </br>
+                </div>
+              </div>
             </div>
 
-            <article>
-                <div class="toto2">
-                    <label for="Carte bancaire"><input type="checkbox" name="Carte bancaire" value="Carte bancaire"
-                            id="Carte bancaire">Carte bancaire</label>
-                    </br>
-                    </br>
-                    <label for="PayPal"><input type="checkbox" name="PayPal" value="PayPal" id="PayPal">PayPal</label>
-                    </br>
-                    </br>
-                    <label for="Espèce"><input type="checkbox" name="Espèce" value="Espèce" id="Espèce">Espèce
+            <!-- Click and Collect  -->
+            <div class="accordion-item" id="headingTwo"></div>
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Click and Collect
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>
+                  <h3 id="collect">Click and Collect</h3>
+                  <h5>Champs obligatoires*</h5>
+                  <input type="text" name="Votre nom" id="Votre nom" placeholder="Nom*" required></label></br>
+                  </br>
+                  <input type="texte" name="Votre prénom" id="Votre prénom" placeholder="Prénom*" required></label></br>
+                  </br>
+                  <input type="tel" name="Votre numéro" id="Votre numéro" placeholder="Numéro de téléphone*"
+                    required></label><br>
+                  </br>
+                  </br>
+                  <label for="Date récupération">Date de retrait de la commande*</label><br>
+                  </br>
+                  <input type="date" name="Date récupération" value="Date récupération" id="Date récupération"
+                    min="2023-06-21"><br>
+                  </br>
+                  <label for="Horaires récupération Click and Collect">Horaires de retrait de la commande*</label><br>
+                  </br>
+                  <label for="Horaires"><input type="radio" name="Horaires" value="Horaires" id="10H/11H"
+                      checked>10H/11H</label><br>
+                  <label for="Horaires"><input type="radio" name="Horaires" value="Horaires"
+                      id="14H/15H">14H/15H</label><br>
+                  <label for="Horaires"><input type="radio" name="Horaires" value="Horaires"
+                      id="18H/19H">18H/19H</label>
+                </strong>
+                </br>
+                </br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- </article>  MAIS QUI ES TU ?!           -->
+    </section>
+
+    <section class="modp">
+      <div class="toto1">
+        <h4>Moyen de paiement</h4>
+      </div>
+      <!-- CB -->
+      <article>
+        <div class="toto2">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item" id="headingThree">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Carte bleue
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>
+                    <h5>Champs obligatoires*</h5>
+                    <section id="CB">
+                      <article>
+                        Numéro de carte<br>
+                        <input type="text" name="Numéro de carte" id="Numéro de carte" placeholder="Numéro de carte"
+                          required></label></br>
+                        Titulaire de la carte<br>
+                        <input type="text" name="Titulaire de la carte" id="Titulaire de la carte"
+                          placeholder="Titulaire de la carte" required></label></br>
+                        Date d'expiration<br>
+                        <input type="text" name="Date d'expiration" id="Date d'expiration" placeholder="06/07/2025"
+                          required></label></br>
+                        Cryptogramme<br>
+                        <input type="text" name="Cryptogramme" id="Cryptogramme" placeholder="Cryptogramme"
+                          required></label>
+                        </br>
+                        </br>
+                        <figure>
+                          <img src="../img/logo-cb.png" width="60" height="60">
+                        </figure>
+
+                      </article>
+                    </section>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- </article> QUI ES TU ?! -->
+
+          <!-- PAYPAL -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item" id="headingFor">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseFor">
+                  Paypal
+                </button>
+              </h2>
+              <div id="collapseFor" class="accordion-collapse collapse" aria-labelledby="headingFor"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>
+                    <h3 id="collect"></h3>
+                    <section id="CB">
+                      <article>
+                        <section id="PP">
+                          <article>
+                            <figure>
+                              <img src="../img/logo-paypal.png" width="200" height="70">
+                            </figure>
+                            Connectez vous à PayPal<br>
+
+                            <input type="text" name="Email" id="Email" placeholder="Email" required></label></br>
+                            <input type="text" name="Mot de passe" id="Mot de passe" placeholder="Mot de passe"
+                              required></label></br>
+                            </br>
+                            <input type="submit" value="Connexion"><br>
+                            </br>
+                            <li><a href="#" target="_blank"> Vous n'arrivez pas à vous connecter ?</a></li>
+                          </article>
+                        </section>
+                      </article>
+                    </section>
+                  </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Espèces                 -->
+
+          <!-- </section> QUI ES TU ?! -->
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item" id="headingFive">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Espèces
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>
+                    <h3 id="collect"></h3>
+                    <section id="CB">
+                      <article>
                         (uniquement pour le Click and Collect)
-                    </label>
+                      </article>
                 </div>
-                <input id="Réglement" type="submit" value="Passer au réglement !">
-            </article>
-        </section>
-    </main>
-
-
-    <footer>
-        <div class="footer-items">
-
-          <div class="footer-item">
-            <a href="#">Nous contacter</a>
+              </div>
+            </div>
+          </div>
         </div>
-
-          <div class="footer-item">
-            <a href="#">Mentions légales</a>
-        </div>
-
-
-          <div class="footer-item"><a href="#">CGU</a>
-        </div>
-
-        <div class="footer-item" id="image">
-            <a href="https://www.facebook.com/">
-                <img class="footerimage" src="../img/facebook.png" alt="facebook">
-            </a>
-            <a href="https://www.instagram.com/">
-                <img class="footerimage" src="../img/instagram.png" alt="facebook">
-            </a>
-            <a  href="https://twitter.com/lang=fr">
-                <img class="footerimage" src="../img/twitter.png" alt="facebook">
-        </div>
-
-
         
-        </div>
-      </footer>
+
+        <a href="../html/Merci.html"><input type="submit" value="C'est parti !">
+      </article>
+    </section>
+
+    </div>
+    </div>
+
+
+
+  </main>
+
+  <footer>
+    <div class="footer-items">
+
+      <div class="footer-item">
+        <a href="#">Nous contacter</a>
+      </div>
+
+      <div class="footer-item">
+        <a href="#">Mentions légales</a>
+      </div>
+
+
+      <div class="footer-item"><a href="#">CGU</a>
+      </div>
+
+      <div class="footer-item" id="image">
+        <a href="https://www.facebook.com/">
+          <img class="footerimage" src="../img/facebook.png" alt="facebook">
+        </a>
+        <a href="https://www.instagram.com/">
+          <img class="footerimage" src="../img/instagram.png" alt="facebook">
+        </a>
+        <a href="https://twitter.com/lang=fr">
+          <img class="footerimage" src="../img/twitter.png" alt="facebook">
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"></script>
+
+
 </body>
+</footer>
+</section>
+
 </html>

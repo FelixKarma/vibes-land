@@ -5,5 +5,11 @@ body{
     text-align: center;
 }   
 
+#merci{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+
+}
 
 

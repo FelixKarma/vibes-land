@@ -3,9 +3,7 @@ body{
     font-family: 'Roboto', sans-serif, arial;
     background-color: white;
     text-align: justify;
-    margin-top: 50px;
-    overflow-y: hidden;
-    overflow-x :hidden;
+
 }
 
 #CB{
@@ -17,21 +15,27 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 100;
+    border: 6px solid #A3CC52;
+    text-align: center;
+
 }
 
 #PP{
     width: 33%;
-    background-color: #FACF19;
+    background-color: #A3CC52;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 100;
+    border: 6px solid #FACF19;
+    text-align: center;
 }
 
 main{
-    display: flex;        
+    display: flex;
+    margin-top: 3%;        
 }
 
 li{
@@ -46,5 +50,5 @@ li{
 }
 
 footer{
-    margin-top: 8%;
+    margin-top: 4%;
 }
