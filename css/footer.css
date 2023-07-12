@@ -1,33 +1,4 @@
-footer {
 
-    background-color: #FACF19;
-    padding: 20px;
-    position: static;
-    bottom: 0;
-    /* width: 100%; */
+#image {
+  margin-left: 60px;
 }
-  
-  .footer-items {
-    display: flex;
-  }
-  
-  .footer-item {
-    margin-right: 17%;
-    text-decoration: none;
-  }
-
-
-  a:hover{
-    color: brown;
-  }
-  
-  .footerimage{
-    height: 20px;
-    margin-left: 5px;
-  }
-
-
-  #image{
-    margin-left: 60px;
-  }
-

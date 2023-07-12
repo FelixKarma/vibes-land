@@ -1,51 +1,26 @@
+body{
+    overflow: hidden;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .grosTitres{
     text-align: center;
 }
 
 .fondFormulaire{
     background-color: #A3CC52;
-    height: 516px;
+    height: 100vh;   
 }
 
-form {
-    margin: 0 auto;
-    width: 400px;
-    padding: 1em;
-    border: 1px solid yellow;
-    border-radius: 1em;
+.formContactez{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 7%;
 }
-  
-form div + div {
-    margin-top: 1em;
-}
-  
-label {
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-}
-  
-input, textarea {
-    font: 1em sans-serif;
-    width: 300px;
-    box-sizing: border-box;
-    border: 1px solid #999;
-}
-  
-input:focus, textarea:focus {
-    border-color: #000;
-}
-  
-textarea {
-    vertical-align: top;
-    height: 5em;
-}
-  
-.button {
-    padding-left: 90px;
-}
-  
-button {
-    margin-left: .5em;
-}
-  

@@ -9,13 +9,16 @@
     bottom: 14.5%;
     left: 13%;
     transform: scaleX(-1);
+    animation: 3s linear infinite alternate slidein;
 }
 
 #smokeCloud{
     position: absolute;
-    bottom: 15.3%;
-    left: 15.4%;
-    transform: rotate(30deg);
+    bottom: 13.5%;
+    left: 15%;
+    transform: rotate(60deg);
+    animation: apar 3s linear infinite;
+
 }
 
 #paveQuiSommesNous{
@@ -32,3 +35,18 @@
     background-color: rgba(240, 248, 255, 0.363);
     color: black;
 }
+
+
+
+@keyframes slidein {
+    0%   {left:13%; }
+    
+    50%  {left:17.4%; }
+    100% {left:13%; }
+  }
+@keyframes apar {
+    0%   {opacity:0 }
+    
+    50%  {opacity: 1 }
+    100% {opacity: 0 }
+  }

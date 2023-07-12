@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,81 +18,87 @@
                 <h1 id="nom-du-site">VIBE'S LAND</h1>
                 <h2 id="slogan-du-site">VIENS GRATTER DU BONHEUR</h2>
             </section>
-            
+
             <div class="conteneurs-centred">
-                <a href="page d'accueil.html"><img src="../img/Logo final VIBE'S LAND.png" alt="logo VIBE'S LAND" id="logo"></a>
+                <a href="page d'accueil.html"><img src="../img/Logo final VIBE'S LAND.png" alt="logo VIBE'S LAND"
+                        id="logo"></a>
             </div>
-    
+
             <section class="conteneurs-centred boutons-connexion-cart">
                 <div class="flexi">
-                    <a href="connexion.html" id="lienBouton"><button id="bouton-connexion"><img src="../img/icon profil.png" alt="profil" height="25px">Connexion</button></a>
+                    <a href="connexion.html" id="lienBouton"><button id="bouton-connexion"><img
+                                src="../img/icon profil.png" alt="profil" height="25px">Connexion</button></a>
                     <a href="récappanier2.html">
                         <img src="../img/cart.png" alt="panier" id="cart">
                     </a>
                 </div>
             </section>
         </section>
-    
+
         <hr id="hrHeader">
-    
+
         <nav class="navBarre">
             <a href="viande.html" class="nav-flex">VIANDE</a>
             <a href="fruitsetlégumes.html" class="nav-flex">FRUITS</a>
             <a href="fruitsetlégumes.html" class="nav-flex">LÉGUMES</a>
             <a href="contact.html" class="nav-flex" id="navContactezNous">CONTACTEZ-NOUS</a>
         </nav>
-      </header>
+    </header>
 
 
     <main>
         <h1 class="grosTitres">NOUS CONTACTER</h1>
 
         <div class="fondFormulaire">
-            <div>
-                <form action="/ma-page-de-traitement" method="post">
-                    <div>
-                        <label for="name">Nom :</label>
-                        <input type="text" id="name" name="user_name">
-                    </div>
-                    <div>
-                        <label for="mail">e-mail&nbsp;:</label>
-                        <input type="email" id="mail" name="user_mail">
-                    </div>
-                    <div>
-                        <label for="msg">Message :</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </div>
-                </form>
-                
-            </div>
+            <form action="page d'accueil.html" class="formContactez">
+                <table>
+                    <tr>
+                        <td><label for="fname">Nom :</label></td>
+                        <td><input type="text" name="fname" id="fname"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="mail">E-mail :</label></td>
+                        <td><input type="email" name="mail" id="mail"></td>
+                    </tr>
+
+                </table>
+                <label for="msg">Message :<br>
+                    <textarea name="user_message" id="msg" rows="10" cols="30">
+                    </textarea>
+                </label>
+
+                <input type="submit" value="Envoyer">
+
+            </form>
         </div>
     </main>
 
 
     <footer>
         <div class="footer-items">
-    
-          <div class="footer-item">
-            <a href="contact.html">Nous contacter</a>
+
+            <div class="footer-item">
+                <a href="contact.html">Nous contacter</a>
+            </div>
+
+            <div class="footer-item"><a href="CGU.html">Conditions Générales d'Utilisation & Mentions légales</a>
+            </div>
+
+            <div class="footer-item" id="image">
+                <a href="https://www.facebook.com/">
+                    <img class="footerimage" src="../img/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img class="footerimage" src="../img/instagram.png" alt="facebook">
+                </a>
+                <a href="https://twitter.com/lang=fr">
+                    <img class="footerimage" src="../img/twitter.png" alt="facebook">
+            </div>
+
+
+
         </div>
-    
-          <div class="footer-item"><a href="CGU.html">Conditions Générales d'Utilisation & Mentions légales</a>
-        </div>
-    
-        <div class="footer-item" id="image">
-            <a href="https://www.facebook.com/">
-                <img class="footerimage" src="../img/facebook.png" alt="facebook">
-            </a>
-            <a href="https://www.instagram.com/">
-                <img class="footerimage" src="../img/instagram.png" alt="facebook">
-            </a>
-            <a  href="https://twitter.com/lang=fr">
-                <img class="footerimage" src="../img/twitter.png" alt="facebook">
-        </div>
-    
-    
-        
-        </div>
-      </footer>
+    </footer>
 </body>
+
 </html>
