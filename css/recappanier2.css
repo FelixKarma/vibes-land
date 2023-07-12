@@ -95,7 +95,7 @@ h2{
 }
 
 .accordion-button:hover{
-
+    border-radius: 30px;
 }
 
 .accordion-button{
