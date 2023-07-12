@@ -143,10 +143,22 @@
   </footer>
 
   <script>
-    function togglePopup() {
-      var popup = document.getElementById("popupContainer");
-      popup.style.display = (popup.style.display === "block") ? "none" : "block";
-    }
+      function togglePopup() {
+  var popup = document.getElementById("popupContainer");
+  
+  // Toggle display when the popup is clicked
+  popup.addEventListener("click", function() {
+    popup.style.display = "none";
+  });
+
+  // Optional: Prevent click events from propagating to parent elements
+  popup.addEventListener("click", function(event) {
+    event.stopPropagation();
+  });
+
+  // Toggle display initially
+  popup.style.display = (popup.style.display === "block") ? "none" : "block";
+}
   </script>
 </body>
 </html>
