@@ -2,7 +2,7 @@ footer {
 
   background-color: #FACF19;
   padding: 20px;
-  position: static;
+  /* position: static; */
   bottom: 0;
   width: 100%;
 }

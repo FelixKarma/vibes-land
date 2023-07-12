@@ -246,3 +246,12 @@ footer {
   display: flex;
   
 }
+
+footer {
+
+  /* background-color: #FACF19;
+  padding: 20px; */
+  position: static;
+  /* bottom: 0;
+  width: 100%; */
+}
